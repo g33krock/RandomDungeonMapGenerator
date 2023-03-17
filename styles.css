@@ -1,0 +1,20 @@
+.dungeon {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+  .cell {
+    width: 32px;
+    height: 32px;
+  }
+  .empty {
+    background-color: black;
+  }
+  .wall {
+    background-image: url('./tiles/wall.png');
+  }
+  .floor {
+    background-image: url('./tiles/floor.png');
+  }
+  .door {
+    background-color: green;
+  }
